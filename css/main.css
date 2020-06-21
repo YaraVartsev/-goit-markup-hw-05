@@ -69,6 +69,7 @@ body {
   font-size: 26px;
   line-height: 1.2;
   text-decoration: none;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .web {
@@ -120,6 +121,7 @@ body {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .item .current::after {
@@ -169,6 +171,7 @@ body {
   font-style: normal;
   font-size: 14px;
   line-height: 1.71;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .contacts:hover,
@@ -241,7 +244,7 @@ body {
   line-height: 1.87;
 
   letter-spacing: 0.06em;
-
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   cursor: pointer;
 }
 
@@ -402,6 +405,7 @@ body {
   align-items: center;
   justify-content: center;
   color: #afb1b8;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .social:hover,
@@ -457,6 +461,8 @@ body {
   align-items: center;
   justify-content: center;
   color: #afb1b8;
+  transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .link-clients:hover,
@@ -593,6 +599,9 @@ body {
   line-height: 1.62;
   text-align: center;
   background-color: #f5f4fa;
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .filter:hover,
@@ -649,6 +658,7 @@ body {
   height: 100%;
   transform: translateY(100%);
   background-color: rgba(33, 150, 243, 0.9);
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .container-link:hover .element-overlay,
