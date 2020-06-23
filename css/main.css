@@ -82,6 +82,8 @@ body {
 }
 
 .mail {
+  transform: translateY(3px);
+  margin-right: 10px;
   fill: currentColor;
 }
 
@@ -530,7 +532,7 @@ body {
   margin-top: 21px;
 }
 
-.subscribe-email {
+.subscribe-mail {
   width: 358px;
   height: 50px;
   border: 1px solid rgba(255, 255, 255, 0.3);
